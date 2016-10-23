@@ -1,0 +1,20 @@
+{
+  "name": "htlm-partial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "main": "node $NODE_DEBUG_OPTION ./app-compiled.js"
+  },
+  "author": "tu nguyen",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.17.5",
+    "del": "^2.2.2",
+    "event-stream": "^3.3.4",
+    "gulp": "^3.9.1",
+    "gulp-file-include": "^1.0.0",
+    "gulp-ruby-sass": "^2.1.0",
+    "sass": "^0.5.0"
+  }
+}
